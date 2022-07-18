@@ -1,3 +1,4 @@
+//movimentação personagem
 cima = keyboard_check(ord("W"));
 baixo = keyboard_check(ord("S"));
 direita = keyboard_check(ord("D"));
@@ -27,7 +28,7 @@ if place_meeting(x, y + sign(Vspeed), obj_Wall){
 
 y += Vspeed;
 
-// Direcional
+// Direcional sprite
 
 if (cima || baixo || esquerda || direita) {
 
