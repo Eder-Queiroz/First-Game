@@ -6,6 +6,7 @@ esquerda = keyboard_check(ord("A"));
 
 Hspeed = (direita - esquerda) * spd;
 
+
 if place_meeting(x + Hspeed, y, obj_Wall){
 		while !place_meeting(x + sign(Hspeed), y, obj_Wall){
 			x += sign(Hspeed);	
@@ -18,9 +19,9 @@ x += Hspeed;
 
 Vspeed = (baixo - cima) * spd
 
-if place_meeting(x, y + sign(Vspeed), obj_Wall){
+if place_meeting(x, y + Vspeed, obj_Wall){
 		while !place_meeting(x, y + sign(Vspeed), obj_Wall){
-			x += sign(Vspeed);	
+			y += sign(Vspeed);	
 		}
 		
 	Vspeed = 0;
@@ -67,26 +68,3 @@ switch dir {
 	break;
 	
 }
-
-/*
-if direita{
-	while Hspeed > 0{
-		sprite_index = SprCorrendoDireita;
-	}
-	dir = 1;
-}
-
-if esquerda{
-	while Hspeed < 0{
-		sprite_index = SprCorrendoEsquerda;
-	}
-	dir = -1;
-}
-
-if dir == -1{
-	sprite_index = ParadoOlhandoEsquerda;
-}
-if dir == 1{
-	sprite_index = ParadoOlhandoDireita;
-}
-*/
