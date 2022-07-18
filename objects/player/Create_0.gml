@@ -8,6 +8,10 @@ Vspeed = 0;
 
 dir = 0;
 
-spd = 4;
+spd = 2;
+spdDir = 0;
 
+dashdir = -1;
+dashVeloc = 6;
 
+estado = PersMoviment;

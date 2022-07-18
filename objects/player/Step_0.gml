@@ -1,4 +1,8 @@
 //movimentação personagem
+
+script_execute(estado);
+
+/*
 cima = keyboard_check(ord("W"));
 baixo = keyboard_check(ord("S"));
 direita = keyboard_check(ord("D"));
@@ -29,7 +33,7 @@ if place_meeting(x, y + Vspeed, obj_Wall){
 
 y += Vspeed;
 
-// Direcional sprite
+#region Direcional sprite
 
 if (cima || baixo || esquerda || direita) {
 
@@ -67,4 +71,21 @@ switch dir {
 		}
 	break;
 	
+}
+
+#endregion
+
+show_debug_message(string(dir));
+
+if keyboard_check_pressed(ord("Q")){
+	
+		if dir = 0 || dir = 2{
+			dashVeloc *= -1;
+		}
+		
+		Hspeed = lengthdir_x(dashVeloc, dir);
+		Vspeed = lengthdir_y(dashVeloc, dir);
+	
+		x += Hspeed;
+		y += Vspeed;
 }
