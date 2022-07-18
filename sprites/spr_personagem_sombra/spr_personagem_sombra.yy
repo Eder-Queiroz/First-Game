@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 13,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 14,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6c040fb6-6891-4c39-8246-648e9cf3e49c","path":"sprites/Spr_Parede/Spr_Parede.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c040fb6-6891-4c39-8246-648e9cf3e49c","path":"sprites/Spr_Parede/Spr_Parede.yy",},"LayerId":{"name":"f1b5f064-eb3a-4ee1-b43a-9d0f7fe96325","path":"sprites/Spr_Parede/Spr_Parede.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Parede","path":"sprites/Spr_Parede/Spr_Parede.yy",},"resourceVersion":"1.0","name":"6c040fb6-6891-4c39-8246-648e9cf3e49c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b4671341-3abc-48d9-b4f4-c4c5abd55de4","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b4671341-3abc-48d9-b4f4-c4c5abd55de4","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},"LayerId":{"name":"ea06e5ec-fbdd-4d8d-8583-4221977752d1","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_personagem_sombra","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},"resourceVersion":"1.0","name":"b4671341-3abc-48d9-b4f4-c4c5abd55de4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Parede","path":"sprites/Spr_Parede/Spr_Parede.yy",},
+    "spriteId": {"name":"spr_personagem_sombra","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"86645aa9-c8c9-476f-b958-d48fb8870db1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c040fb6-6891-4c39-8246-648e9cf3e49c","path":"sprites/Spr_Parede/Spr_Parede.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"d89f0e03-9b5f-42e2-a023-f1fa6df36ad3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4671341-3abc-48d9-b4f4-c4c5abd55de4","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 8,
-    "yorigin": 8,
+    "xorigin": 7,
+    "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Parede","path":"sprites/Spr_Parede/Spr_Parede.yy",},
+    "parent": {"name":"spr_personagem_sombra","path":"sprites/spr_personagem_sombra/spr_personagem_sombra.yy",},
     "resourceVersion": "1.4",
-    "name": "Spr_Parede",
+    "name": "spr_personagem_sombra",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1b5f064-eb3a-4ee1-b43a-9d0f7fe96325","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea06e5ec-fbdd-4d8d-8583-4221977752d1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Parede",
+  "name": "spr_personagem_sombra",
   "tags": [],
   "resourceType": "GMSprite",
 }
