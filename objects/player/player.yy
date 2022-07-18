@@ -1,16 +1,18 @@
 {
-  "name": "Player",
   "spriteId": {
     "name": "ParadoOlhandoBaixo",
     "path": "sprites/ParadoOlhandoBaixo/ParadoOlhandoBaixo.yy",
   },
-  "spriteMaskId": null,
+  "solid": false,
   "visible": true,
-  "solid": true,
-  "persistent": false,
-  "physicsObject": false,
   "managed": true,
+  "spriteMaskId": {
+    "name": "Collision",
+    "path": "sprites/Collision/Collision.yy",
+  },
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -25,6 +27,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,6 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "Player",
   "tags": [],
   "resourceType": "GMObject",
 }
