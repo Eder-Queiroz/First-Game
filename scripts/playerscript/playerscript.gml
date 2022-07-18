@@ -79,16 +79,18 @@ function PersMoviment(){
 	
 	}
 	
-	if keyboard_check_pressed(vk_space){
-		
-		if (cima || baixo || esquerda || direita) {
-			alarm[0] = 8;
-			dashdir = point_direction(0, 0, (direita - esquerda), (baixo - cima));
-			estado = PersDash;
+	if estamina >= 10{
+		if keyboard_check_pressed(vk_space){		
+			if (cima || baixo || esquerda || direita) {
+				estamina -= 10;
+				alarm[1] = 60;
+				alarm[0] = 8;
+				dashdir = point_direction(0, 0, (direita - esquerda), (baixo - cima));
+				estado = PersDash;
+			}
 		}
 	}
 }
-
 
 function PersDash(){
 	Hspeed = lengthdir_x(dashVeloc, dashdir);
