@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Personagem",
+    "path": "folders/Sprites/Personagem.yy",
   },
   "resourceVersion": "1.0",
   "name": "SprCorrendoDireita",

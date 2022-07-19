@@ -3,7 +3,7 @@
     "name": "Spr_Parede",
     "path": "sprites/Spr_Parede/Spr_Parede.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

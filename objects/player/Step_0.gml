@@ -1,4 +1,5 @@
 //movimentação personagem
+depth = -y;
 
 script_execute(estado);
 

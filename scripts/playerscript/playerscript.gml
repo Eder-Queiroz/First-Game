@@ -19,8 +19,8 @@ function PersMoviment(){
 	Hspeed = lengthdir_x(spd, spdDir);
 	Vspeed = lengthdir_y(spd, spdDir);
 
-	if place_meeting(x + Hspeed, y, obj_Wall){
-			while !place_meeting(x + sign(Hspeed), y, obj_Wall){
+	if place_meeting(x + Hspeed, y, HitBoxBlocos){
+			while !place_meeting(x + sign(Hspeed), y, HitBoxBlocos){
 				x += sign(Hspeed);	
 			}
 		
@@ -29,8 +29,8 @@ function PersMoviment(){
 
 	x += Hspeed;
 
-	if place_meeting(x, y + Vspeed, obj_Wall){
-			while !place_meeting(x, y + sign(Vspeed), obj_Wall){
+	if place_meeting(x, y + Vspeed, HitBoxBlocos){
+			while !place_meeting(x, y + sign(Vspeed), HitBoxBlocos){
 				y += sign(Vspeed);	
 			}
 		
@@ -96,9 +96,9 @@ function PersDash(){
 	Hspeed = lengthdir_x(dashVeloc, dashdir);
 	Vspeed = lengthdir_y(dashVeloc, dashdir);
 	
-	if place_meeting(x + Hspeed, y, obj_Wall) {
+	if place_meeting(x + Hspeed, y, HitBoxBlocos) {
 	
-		while !place_meeting(x + sign(Hspeed), y, obj_Wall) {
+		while !place_meeting(x + sign(Hspeed), y, HitBoxBlocos) {
 		
 			x += sign(Hspeed);
 			
@@ -110,9 +110,9 @@ function PersDash(){
 	
 	x += Hspeed;
 	
-	if place_meeting(x, y + Vspeed, obj_Wall) {
+	if place_meeting(x, y + Vspeed, HitBoxBlocos) {
 	
-		while !place_meeting(x, y + sign(Vspeed), obj_Wall) {
+		while !place_meeting(x, y + sign(Vspeed), HitBoxBlocos) {
 		
 			y += sign(Vspeed);
 			
